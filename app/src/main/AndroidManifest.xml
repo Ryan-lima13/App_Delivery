@@ -14,7 +14,13 @@
         android:theme="@style/Theme.AppDelivery"
         tools:targetApi="31">
         <activity
+            android:name=".Form_cadastro"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Form_login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
