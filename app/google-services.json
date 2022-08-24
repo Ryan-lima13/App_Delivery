@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "763969942907",
+    "project_id": "app-delivery-a220e",
+    "storage_bucket": "app-delivery-a220e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763969942907:android:5eae19b42d89bbe4f839de",
+        "android_client_info": {
+          "package_name": "com.rlds.appdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763969942907-mue9jdfhs710123k32jg985a3d3b5c1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASrmghzDRXl3HKa23n7w_mTzpXHJlAcWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763969942907-mue9jdfhs710123k32jg985a3d3b5c1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
