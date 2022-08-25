@@ -43,32 +43,7 @@ public class Lista_Produtos extends AppCompatActivity {
         recyclerViewProdutos.setLayoutManager( new LinearLayoutManager(getApplicationContext()));
         recyclerViewProdutos.setHasFixedSize(true);
         recyclerViewProdutos.setAdapter(adapterProduto);
-        // evendo de clique REcyclerViewr
-        recyclerViewProdutos.addOnItemTouchListener(
-                new RecyclerItemClickListener(
-                        getApplicationContext(),
-                        recyclerViewProdutos,
-                        new RecyclerItemClickListener.OnItemClickListener() {
-                            @Override
-                            public void onItemClick(View view, int position) {
-                                Intent intent = new Intent(Lista_Produtos.this, Detalhes_Produtos.class);
-                                startActivity(intent);
 
-
-                            }
-
-                            @Override
-                            public void onLongItemClick(View view, int position) {
-
-                            }
-
-                            @Override
-                            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
-                            }
-                        }
-                )
-        );
 
         db = FirebaseFirestore.getInstance();
         db.collection("produtos")

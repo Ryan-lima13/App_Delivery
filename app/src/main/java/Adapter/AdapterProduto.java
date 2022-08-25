@@ -43,6 +43,9 @@ public class AdapterProduto extends RecyclerView.Adapter<AdapterProduto.ProdutoV
         holder.textViewNome.setText(listaProdutos.get(position).getNome());
         holder.textViewPreco.setText(listaProdutos.get(position).getPreco());
 
+
+
+
     }
 
     @Override
@@ -51,7 +54,7 @@ public class AdapterProduto extends RecyclerView.Adapter<AdapterProduto.ProdutoV
     }
 
     public  class ProdutoViewHolder extends RecyclerView.ViewHolder{
-        private TextView textViewNome, textViewPreco;
+        private TextView textViewNome, textViewPreco, textViewDescricao;
         private CircleImageView circleImageViewFotoItem;
 
         public ProdutoViewHolder(@NonNull View itemView) {
