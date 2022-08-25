@@ -4,7 +4,9 @@ public class Produtos {
     private String nome;
     private String descricao;
     private  String preco;
-    private int foto;
+    private String foto;
+
+
 
     public String getNome() {
         return nome;
@@ -30,11 +32,11 @@ public class Produtos {
         this.preco = preco;
     }
 
-    public int getFoto() {
+    public String getFoto() {
         return foto;
     }
 
-    public void setFoto(int foto) {
+    public void setFoto(String foto) {
         this.foto = foto;
     }
 

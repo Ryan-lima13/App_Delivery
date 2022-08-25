@@ -37,7 +37,7 @@
             android:layout_marginTop="10dp"
             />
         <TextView
-            android:id="@+id/nomePreco"
+            android:id="@+id/preco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="R$00.00"
